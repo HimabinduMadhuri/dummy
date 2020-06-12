@@ -1,0 +1,9 @@
+<div>
+    <h3>CountryList Component</h3>
+    <p *ngFor="let country of CountryList | async">
+        {{country.countryId}} |
+        {{country.countryName}} |
+        {{country.capital}} |
+        {{country.currency}} |
+    </p>
+</div>
